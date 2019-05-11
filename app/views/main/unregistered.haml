@@ -1,0 +1,9 @@
+.full-height.row.fix-row.middle-xs.white-text.center-xs.main-background.no-margin
+	=grid xs:10,sm:8,md:6,lg:4 do
+		.big-padding.blue.text-left.bold.light-blue-text
+			%h1 SocialCorp
+			%p.no-margin Conoce a otros usuarios de la comunidad 
+			.top-space
+				Login
+			.large-padding.text-center
+				=link_to 'Crear cuenta', new_user_registration_path

@@ -34,6 +34,8 @@ gem 'omniauth-facebook'
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
+gem 'flexbox_rb'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
