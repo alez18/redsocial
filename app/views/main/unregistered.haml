@@ -4,6 +4,6 @@
 			%h1 SocialCorp
 			%p.no-margin Conoce a otros usuarios de la comunidad 
 			.top-space
-				Login
+				=render 'devise/registrations/new'
 			.large-padding.text-center
 				=link_to 'Crear cuenta', new_user_registration_path
