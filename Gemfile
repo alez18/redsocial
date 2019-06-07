@@ -37,6 +37,14 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'flexbox_rb'
 gem 'jquery-rails'
 
+gem 'best_in_place', github: 'bernat/best_in_place'
+
+gem "paperclip", "~> 6.0.0"
+gem 'annotate'
+gem 'remotipart'
+gem 'aasm'
+gem 'draper'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

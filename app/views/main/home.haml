@@ -1,2 +1,13 @@
-%h1 Bienvenido a la página
-= link_to 'Cerrar', destroy_user_session_path, method: :delete
+.top-space
+	.row.center-xs
+		=grid xs:8,md:10 do
+			.row 
+				=grid lg:2, sm:3, xs:10 do
+					%ul.remove-bullets-types.text-left
+						%li=link_to 'Explorar',"#"
+						%li=link_to 'Sugerencias',"#"
+				=grid class:'col-xs' do
+					.white.large-padding
+						=render 'posts/form'
+					#posts
+						= render @posts

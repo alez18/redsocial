@@ -3,9 +3,22 @@ html,body{
 	margin: 0;
 	font-family: Roboto, sans-serif;
 }
+body{
+	background-color: #eee;
+}
+.absolute{
+	position: absolute;
+}
+.border-bottom{
+	border-bottom: 1px solid currentcolor;
+}
 
 .full-height{
 	height: 100%;
+}
+
+.medium{
+	font-size: 1.2em;
 }
 
 .no-margin{
@@ -15,8 +28,12 @@ html,body{
 .big-padding{
 	padding: 2em 1.5em;
 }
-
-
+.large-padding{
+	padding: 10px 15px;
+}
+.relative{
+	position: relative;
+}
 .row.fix-row{
 	margin: auto 0;
 }
@@ -25,6 +42,10 @@ html,body{
 	margin-top: 1em;
 }
 
+.remove-bullets-types{
+	list-style-type: none;
+	margin: 0;
+}
 .underline{
 	text-decoration: underline;
 }
